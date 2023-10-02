@@ -1,0 +1,15 @@
+/Users/techment/Documents/project/workspace_2023_02_06/MovieMagnet/src/main/java/com/movie_magnet/entity/Watchlist.java
+/Users/techment/Documents/project/workspace_2023_02_06/MovieMagnet/src/main/java/com/movie_magnet/MovieMagnetApplication.java
+/Users/techment/Documents/project/workspace_2023_02_06/MovieMagnet/src/main/java/com/movie_magnet/entity/UserFavorite.java
+/Users/techment/Documents/project/workspace_2023_02_06/MovieMagnet/src/main/java/com/movie_magnet/entity/MovieActor.java
+/Users/techment/Documents/project/workspace_2023_02_06/MovieMagnet/src/main/java/com/movie_magnet/entity/Actor.java
+/Users/techment/Documents/project/workspace_2023_02_06/MovieMagnet/src/main/java/com/movie_magnet/entity/Director.java
+/Users/techment/Documents/project/workspace_2023_02_06/MovieMagnet/src/main/java/com/movie_magnet/entity/MovieDirector.java
+/Users/techment/Documents/project/workspace_2023_02_06/MovieMagnet/src/main/java/com/movie_magnet/entity/User.java
+/Users/techment/Documents/project/workspace_2023_02_06/MovieMagnet/src/main/java/com/movie_magnet/config/CustomDataRestConfig.java
+/Users/techment/Documents/project/workspace_2023_02_06/MovieMagnet/src/main/java/com/movie_magnet/entity/Movie.java
+/Users/techment/Documents/project/workspace_2023_02_06/MovieMagnet/src/main/java/com/movie_magnet/entity/Review.java
+/Users/techment/Documents/project/workspace_2023_02_06/MovieMagnet/src/main/java/com/movie_magnet/repository/GenresRepository.java
+/Users/techment/Documents/project/workspace_2023_02_06/MovieMagnet/src/main/java/com/movie_magnet/repository/DirectorsRepository.java
+/Users/techment/Documents/project/workspace_2023_02_06/MovieMagnet/src/main/java/com/movie_magnet/entity/Genre.java
+/Users/techment/Documents/project/workspace_2023_02_06/MovieMagnet/src/main/java/com/movie_magnet/repository/ActorsRepository.java

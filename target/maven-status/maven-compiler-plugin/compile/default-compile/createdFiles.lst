@@ -1,0 +1,15 @@
+com/movie_magnet/entity/Movie.class
+com/movie_magnet/entity/Actor.class
+com/movie_magnet/MovieMagnetApplication.class
+com/movie_magnet/entity/Director.class
+com/movie_magnet/entity/MovieActor.class
+com/movie_magnet/entity/UserFavorite.class
+com/movie_magnet/config/CustomDataRestConfig.class
+com/movie_magnet/entity/Genre.class
+com/movie_magnet/entity/Review.class
+com/movie_magnet/repository/ActorsRepository.class
+com/movie_magnet/repository/GenresRepository.class
+com/movie_magnet/entity/MovieDirector.class
+com/movie_magnet/repository/DirectorsRepository.class
+com/movie_magnet/entity/User.class
+com/movie_magnet/entity/Watchlist.class
