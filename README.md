@@ -1,1 +1,1 @@
-# movie_magnet
+# MovieMagnet: Attracting the Best Films to Your Screen
