@@ -8,6 +8,8 @@ import java.util.Set;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
+import com.movie_magnet.dto.form.MovieForm;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -34,7 +36,6 @@ public class Movie implements java.io.Serializable {
 	private Genre genres;
 	private String title;
 	private Date releaseDate;
-	private String director;
 	private int duration;
 	private String description;
 	private String coverImageUrl;
@@ -86,15 +87,6 @@ public class Movie implements java.io.Serializable {
 
 	public void setReleaseDate(Date releaseDate) {
 		this.releaseDate = releaseDate;
-	}
-
-	@Column(name = "director", nullable = false, length = 500)
-	public String getDirector() {
-		return this.director;
-	}
-
-	public void setDirector(String director) {
-		this.director = director;
 	}
 
 	@Column(name = "duration", nullable = false)
@@ -198,6 +190,15 @@ public class Movie implements java.io.Serializable {
 
 	public void setMovieDirectorses(Set<MovieDirector> movieDirectorses) {
 		this.movieDirectorses = movieDirectorses;
+	}
+
+	public void parse(MovieForm movie) {
+		this.coverImageUrl=movie.getCoverImageUrl();
+		this.description=movie.getDescription();
+		this.duration=movie.getDuration();
+		this.releaseDate=movie.getReleaseDate();
+		this.title=movie.getTitle();
+		this.trailerUrl=movie.getTrailerUrl();
 	}
 
 }

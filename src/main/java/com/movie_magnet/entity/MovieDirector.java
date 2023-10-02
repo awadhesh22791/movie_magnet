@@ -33,6 +33,14 @@ public class MovieDirector implements java.io.Serializable {
 	private Date createdAt;
 	private Date updatedAt;
 
+	public MovieDirector() {
+	}
+	
+	public MovieDirector(Movie movieToSave, Director director) {
+		this.movies=movieToSave;
+		this.directors=director;
+	}
+
 	@Id
 	@GeneratedValue(strategy = IDENTITY)
 
@@ -85,6 +93,10 @@ public class MovieDirector implements java.io.Serializable {
 
 	public void setUpdatedAt(Date updatedAt) {
 		this.updatedAt = updatedAt;
+	}
+
+	public void parse(Director director) {
+		
 	}
 
 }

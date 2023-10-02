@@ -1,5 +1,7 @@
 package com.movie_magnet.dto.form;
 
+import java.util.Date;
+
 import org.springframework.hateoas.RepresentationModel;
 
 import lombok.Data;
@@ -12,7 +14,10 @@ public class MovieForm extends RepresentationModel<MovieForm>{
 	private String description;
 	private String coverImageUrl;
 	private String trailerUrl;
-	private Integer actorId;
+	private Integer[] actors;
 	private Integer genreId;
-	private Integer directorId;
+	private Integer[] directors;
+	private Integer genre;
+	private Integer duration;
+	private Date releaseDate;
 }

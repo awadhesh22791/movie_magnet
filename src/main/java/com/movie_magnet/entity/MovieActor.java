@@ -32,6 +32,15 @@ public class MovieActor implements java.io.Serializable {
 	private Movie movies;
 	private Date createdAt;
 	private Date updatedAt;
+	
+	public MovieActor() {
+		// default constructor
+	}
+
+	public MovieActor(Movie movieToSave, Actor actor) {
+		this.movies=movieToSave;
+		this.actors=actor;
+	}
 
 	@Id
 	@GeneratedValue(strategy = IDENTITY)

@@ -201,7 +201,6 @@ CREATE TABLE `movies` (
   `genre_id` int NOT NULL,
   `title` varchar(500) NOT NULL DEFAULT '' COMMENT 'Title of movie',
   `release_date` date NOT NULL COMMENT 'Release date of movie',
-  `director` varchar(500) NOT NULL DEFAULT '' COMMENT 'Director of movie',
   `duration` int NOT NULL DEFAULT '0' COMMENT 'Duration of movie in minutes',
   `description` text NOT NULL COMMENT 'Description of movie',
   `cover_image_url` varchar(500) NOT NULL DEFAULT '' COMMENT 'Url of cover image',
